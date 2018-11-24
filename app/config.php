@@ -5,8 +5,8 @@ return [
         "smtp"  =>  "smtp.gmail.com",
         "port"  =>  587,
         "encryption"    =>  "tls",
-        "email" =>  "gtestovik39@gmail.com",
-        "password"  =>  "gtestovik39!"
+        "email" =>  "",
+        "password"  =>  ""
     ],
     "database"  =>  [
         "driver"    =>  "mysql",

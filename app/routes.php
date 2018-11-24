@@ -73,7 +73,7 @@ $dispatcher = FastRoute\simpleDispatcher(function (FastRoute\RouteCollector $r) 
   $r->addRoute('GET', '/download/{photo_id:\d+}', ["App\Controllers\PhotosController", 'download']);
 
   $r->addGroup('/admin', function (RouteCollector $r) {
-    $r->get('', ['App\Controllers\Admin\AdminController', 'index']);
+    $r->get('/', ['App\Controllers\Admin\AdminController', 'index']);
 
     $r->get('/photos', ['App\Controllers\Admin\PhotosController', 'getAll']);
 //    $r->get('/photos/create', ['App\Controllers\PhotosController', 'createForm']);
